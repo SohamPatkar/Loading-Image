@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto:wght@500;700&display=swap');
+
+*{
+    font-family: "Lato" , sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bg{
+    background: url("https://1.bp.blogspot.com/-qedlUCZpflQ/YSHAQPAPpEI/AAAAAAABToc/0joq9a1cjsQyTzAxphRmnonk93P4DfTWgCLcBGAsYHQ/s2560/anime-girl-with-balloon-in-hand-vo-2560x1440.jpg")no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 40px);
+    height: calc(100% + 40px);
+    z-index: -1;
+    filter: blur(70px);
+}
+
+.loading-text{
+    font-size: 50px;
+    color: white;
+}
